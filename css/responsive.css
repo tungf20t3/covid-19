@@ -1,0 +1,87 @@
+/*PC*/
+@media (min-width: 1024px) {
+	#header .mobile-menu{
+    	display: none;    
+	}
+}
+
+
+/*Tablet*/
+@media (min-width: 740px) and (max-width: 1023px) {
+	#header .mobile-menu{
+    	display: none;    
+	}
+
+	#content .content-news { 
+   	 	padding: 0 30px;
+    	width: 50%;
+	}
+
+	#content .content-should {
+   		display: block;
+	}
+
+	#content .content-should-img{
+    	padding-left: 45px;
+	}
+
+	#content .about-heading {
+    	padding: 20px 30px 20px 0;
+	}
+
+	#content .about-text {
+    	padding-right: 30px;
+	}
+
+	.slider-contant{
+		display: none;
+	}
+
+	.together{
+		display: none;
+	}
+}
+
+
+
+/*Mobile*/
+@media (max-width: 740px) {
+	.s-col-full {
+		width: 100%;
+		padding-top: 32px;
+	}
+
+	#nav li {
+    	display: block;  
+	}
+
+	#content .content-news { 
+   	 	padding: 0 30px;
+    	width: 100%;
+	}
+
+	#content .content-should {
+   		display: block;
+	}
+
+	#content .content-should-img{
+    	width: 100%;
+    	padding-bottom: 20px;
+	}
+
+	#content .about {
+    	padding-left: 0;
+	}
+
+	.background-youtube{
+		display: none;
+	}
+	.together{
+		display: none;
+	}
+
+	.slider-contant{
+		display: none;
+	}
+
+}
